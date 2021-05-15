@@ -13,7 +13,7 @@ Description: Estimation and other utilities for trimmed distributions.
     (2) Truncation is useful for random variables having unreachable bounds.
         It assigns a zero pdf outside of the bounds and rescale the pdf
         to ensure it integrates to one.
-License: GPL-3
+License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: 
