@@ -1,0 +1,31 @@
+Package: disTRIMbution
+Type: Package
+Title: Estimation of Trimmed (Either Truncated or Rectified) Distributions
+Version: 0.1.0
+Authors@R: person("Benjamin", "Renard", email = "benjamin.renard@inrae.fr",
+    comment = c(ORCID = "0000-0001-8447-5430"), role = c("aut", "cre"))
+Description: Estimation and other utilities for trimmed distributions.
+    Trimmed distributions are useful for bounded random variables, 
+    and include two distinct trimming methods: 
+    (1) Rectification is useful for random variables having reachable bounds.
+        It assigns a non-zero probability mass to each bound by using 
+        the cdf of the parent untrimmed distribution.
+    (2) Truncation is useful for random variables having unreachable bounds.
+        It assigns a zero pdf outside of the bounds and rescale the pdf
+        to ensure it integrates to one.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5.0),
+    distributions3
+Imports:
+    ggplot2,
+    gridExtra,
+    glue,
+    evd
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.1.0
