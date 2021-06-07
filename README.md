@@ -1,6 +1,8 @@
 The disTRIMbution package
 ================
 
+[![DOI](https://zenodo.org/badge/367593647.svg)](https://zenodo.org/badge/latestdoi/367593647)
+
 # Introduction
 
 Many datasets include variables that are naturally bounded. For
