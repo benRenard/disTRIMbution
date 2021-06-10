@@ -9,6 +9,8 @@ knitr::opts_chunk$set(echo=TRUE,results='hide',
                       fig.path = "man/figures/README-")
 ```
 
+[![DOI](https://zenodo.org/badge/367593647.svg)](https://zenodo.org/badge/latestdoi/367593647)
+
 # Introduction
 
 Many datasets include variables that are naturally bounded. For instance, precipitation and streamflow have a lower bound of zero; proportions are between zero and one; cloud cover is historically measured in [okta](https://en.wikipedia.org/wiki/Okta), an integer between 0 and 8; etc.
